@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="keyboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script>
+      
+      function playClickSound() {
+          var audio = new Audio('spacebar-click-keyboard-199448.mp3'); 
+          audio.play();
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+          document.querySelectorAll('.bg2').forEach(function(button) {
+              button.addEventListener('click', playClickSound);
+          });
+      });
+      
+    </script>
+
+
+
+</head>
+<body>
+    <div class = "wrapper f1 bg">
+        <div class = "container bg1">
+            <div class = "main-l f1">
+                <div class = "function f1 bg2">Esc</div>
+                <div class = "function mf1 bg2">F1</div>
+                <div class = "function mf1 bg2">F2</div>
+                <div class = "function mf1 bg2">F3</div>
+                <div class = "function mf1 bg2">F4</div>
+                <div class = "function mf1 bg2">F5</div>
+                <div class = "function mf1 bg2">F6</div>
+                <div class = "function mf1 bg2">F7</div>
+                <div class = "function mf1 bg2">F8</div>
+                <div class = "function mf1 bg2">F9</div>
+                <div class = "function mf1 bg2">F10</div>
+                <div class = "function mf1 bg2">F11</div>
+                <div class = "function mf1 bg2">F12</div>
+                <div class = "function mf1 bg2">PrtSrc</div>
+                <div class = "function mf1 bg2">Insert</div>
+                <div class = "function mf1 bg2">Delete</div>
+
+                <div class = "number f1 bg2">~<p>`</p></div>
+                <div class = "number mf1 bg2">!<br>1</div>
+                <div class = "number mf1 bg2">@<br>2</div>
+                <div class = "number mf1 bg2">#<br>3</div>
+                <div class = "number mf1 bg2">$<br>4</div>
+                <div class = "number mf1 bg2">%<br>5</div>
+                <div class = "number mf1 bg2">^<br>6</div>
+                <div class = "number mf1 bg2">&<br>7</div>
+                <div class = "number mf1 bg2">*<br>8</div>
+                <div class = "number mf1 bg2">(<br>9</div>
+                <div class = "number mf1 bg2">)<br>0</div>
+                <div class = "number mf1 bg2">_<br>-</div>
+                <div class = "number mf1 bg2">+<br>=</div>
+                <div class = "number fr bg2 back"><p class = "eng">Backspace</p></div>
+
+                <div class = "number f1 bg2 back"><p class = "eng tab">Tab</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">Q</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">W</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">E</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">R</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">T</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">Y</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">U</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">I</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">O</p></div>
+                <div class = "number mf1 bg2"><p class = "eng">P</p></div>
+                <div class = "number mf1 bg2">{<br>[</div>
+                <div class = "number mf1 bg2">}<br>]</div>
+                <div class = "number fr bg2">|<br>\</div>
+
+                <div class = "number f1 bg2 caps"><p class = "eng mrt">Caps Lock</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">A</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">S</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">D</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">F</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">G</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">H</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">J</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">K</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">L</p></div>
+                <div class = "number mf1 bg2">:<br>;</div>
+                <div class = "number mf1 bg2">"<br>'</div>
+                <div class = "number fr bg2 caps"><p class = "eng lent">Enter</p></div>
+
+                <div class = "number f1 bg2 shift"><p class = "eng sft">Shift</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">Z</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">X</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">C</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">V</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">B</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">N</p></div>
+                <div class = "number mf1 bg2"><p class ="eng">M</p></div>
+                <div class = "number mf1 bg2"><<br>,</div>
+                <div class = "number mf1 bg2">><br>.</div>
+                <div class = "number mf1 bg2">?<br>/</div>
+                <div class = "number fr bg2 shift"><p class = "eng lent">Shift</p></div>
+
+                <div class = "space f1 bg2 ctrl"><p class = "eng mrt">Ctrl</p></div>
+                <div class = "space mf1 bg2"><p class ="eng">Fn</p></div>
+                <div class = "space mf1 bg2"><p class ="eng"><i class = "fab fa-windows"></i></p></div>
+                <div class = "space mf1 bg2"><p class ="eng">Alt</p></div>
+                <div class = "space mf1 bg2 sp"></div>
+                <div class = "space mf1 bg2"><p class ="eng">Alt gr</p></div>
+                <div class = "space mf1 bg2"><p class ="eng">Ctrl</p></div>
+
+                <div class="aro">
+                    <div class="arobtn">
+                        <div class="arobtnsub bg2">&larr;</div>
+                    </div>
+                    <div class="arobtn">
+                        <div class="arobtnsub bg2">&uarr;</div>
+                        <div class="arobtnsub bg2 ardwn">&darr;</div>
+                    </div>
+                    <div class="arobtn">
+                        <div class="arobtnsub bg2">&rarr;</div>
+                    </div>
+                </div>                       
+            </div><!--end--main-left-->
+             
+            <div class = "mail-r fr">
+                <div class="lnum fl">
+                    
+                    <div class="calnub bg2 eng">PgUp</div>
+                    <div class="calnub bg2 eng">PgDn</div>
+                    <div class="calnub bg2 eng">Home</div>
+                     
+                    <div class="calnub bg2 eng">Num</div>
+                    <div class="calnub bg2 eng">/</div>
+                    <div class="calnub bg2 eng">*</div>
+                     
+                    <div class="calnub bg2 eng">7</div>
+                    <div class="calnub bg2 eng">8</div>
+                    <div class="calnub bg2 eng">9</div>
+
+                    <div class="calnub bg2 eng">4</div>
+                    <div class="calnub bg2 eng">5</div>
+                    <div class="calnub bg2 eng">6</div>
+                 
+                    <div class="calnub bg2 eng">1</div>
+                    <div class="calnub bg2 eng">2</div>
+                    <div class="calnub bg2 eng">3</div>
+                    
+                    <div class="calzeo f1 bg2"><p class="eng">0</p></div>
+                    <div class="calnub bg2 eng dot"><p class="eng">.</p></div>
+                    <div class="calnub bg2 eng enter"><p class="eng">Enter</p></div>
+                    
+                </div>
+
+                <div></div>
+
+
+            </div><!---end-main-->
+        </div>
+    </div>
+ 
+   
+    
+</body>
+</html>
